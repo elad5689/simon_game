@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="./style.css"/>
+<script src="myScript.js"></script>
+<audio id="soundred" src="http://carolinegabriel.com/demo/js-keyboard/sounds/040.wav"></audio>
+<audio id="soundblue" src="http://carolinegabriel.com/demo/js-keyboard/sounds/041.wav"></audio>
+<audio id="soundyellow" src="http://carolinegabriel.com/demo/js-keyboard/sounds/042.wav"></audio>
+<audio id="soundgreen" src="http://carolinegabriel.com/demo/js-keyboard/sounds/043.wav"></audio>
+
+
+<html>
+    <body onload="init()"> 
+        <div class="container">
+
+                <div id="button" onclick="computer()">
+                    <div>
+
+                        <h1>Start</h1>
+                        <p id="Count">COUNT : 0</p>
+                        <p id="Record">RECORD : </p>
+
+                    </div>
+                </div>
+
+                <div class="up">
+
+                    <div id="red" onclick="player('red')">
+                    </div>
+                    <div id="blue" onclick="player('blue')">
+                    </div>
+
+                </div>
+
+                <div class="down" >
+
+                    <div id="yellow" onclick="player('yellow')">   
+                    </div>
+                    <div id="green" onclick="player('green')">
+                    </div>   
+
+                </div>
+
+        </div>
+
+    </body>
+
+</html>
